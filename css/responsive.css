@@ -1,0 +1,37 @@
+/*------------------------------------------------------------------
+[Table of contents]
+1. Styles for devices(>1200px)
+2. Styles for devices(>=992px and <=1199px)
+3. Styles for devices(>=768px and <=992px)
+4. Styles for devices(>=481px and <=767px)
+5. Styles for devices(<=480px)
+-------------------------------------------------------------------*/
+/*----------------
+[1. Styles for devices(>1200px)]
+*/
+@media (min-width: 1201px){
+}
+/*----------------
+[2. Styles for devices(>=993px and <=1200px)]
+*/
+@media (min-width: 993px) and (max-width: 1200px) {
+
+}
+/*--------------------
+[3. Styles for devices(>=768px and <=992px)]
+*/
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
+/*--------------------
+[4. Styles for devices(>=481px and <=767px)]
+*/
+@media (min-width: 481px) and (max-width: 767px) { 
+
+}
+/*--------------------
+[5. Styles for devices(<=480px)]
+*/
+@media (max-width: 480px) {
+
+}

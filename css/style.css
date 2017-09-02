@@ -1,0 +1,40 @@
+.loading{
+    display: none;
+}
+
+.make-visible{
+    display: inline-block;
+}
+
+.load-holder{
+    text-align: center;
+    display: block;
+    margin-bottom: 18px;
+}
+
+.load-holder .loading{
+    position: absolute;
+    left: 50%;
+}
+
+
+.single-content-block .lugmety-tab .food-sidebar ul li.active:before{
+    content: '-';
+    color: #EB593B;
+    margin-left: -11px;
+    padding-right: 6px;
+}
+
+@media (min-width: 992px) {
+
+    .home-search{
+        display: inline-block;
+        margin-top: 16px;
+    }
+
+}
+
+.note-edit{
+font-size: 5px;
+}
+

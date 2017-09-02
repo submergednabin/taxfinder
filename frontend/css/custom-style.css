@@ -1,0 +1,179 @@
+html,body {
+    background: rgba(156, 193, 159, 0.17);
+}
+.container.fare-cal-container {
+    border: 1px solid #959a99;
+    background: #84ada5;
+    box-shadow: 3px 7px 7px grey;
+    padding-bottom: 20px;
+}
+center .form-horizontal .form-group input {
+    padding: 34px 20px;
+    font-size: 30px;
+    color: #414146;
+    font-family: 'lato';
+    font-weight: 300;
+    border: 0px solid #414146;
+    border-radius: 4px;
+}
+center .form-horizontal .form-group label {
+    padding: 10px 0px;
+    display: block;
+    text-shadow: 2px 2px 2px #414146;
+    font-family: 'Lato';
+    float: left;
+    width: 100px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+button.btn-normal.btn-color.submit.bottom-pad {
+    background: #efd037;
+    width: 300px;
+    border: 1px solid #000;
+    color: #000;
+    border: none;
+    font-size: 30px;
+    border-radius: 10px;
+    font-weight: 700;
+    height: 50px;
+}
+div#map {
+    height: 400px;
+    max-width: 100%;
+    margin: 40px 40px;
+    opacity: 0.9;
+}
+
+.col-lg-3.fare-box {
+    margin-top: 40px;
+    padding-top: 10px;
+    background: rgb(220, 194, 101);
+    height: 220px;
+    max-height: 400px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+.col-lg-3.fare-information {
+    margin-top: 15px;
+    padding-top: 10px;
+    background: rgba(241, 200, 87, 0.81);
+    height: 220px;
+    max-height: 400px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+.col-lg-3.fare-information span {
+    background: #3c3c3c;
+    padding: 0px 3px;
+    font-size: 25px;
+}.col-lg-3.fare-box span {
+    background: #3c3c3c;
+    padding: 0px 3px;
+    font-size: 25px;
+}
+.col-lg-3.fare-box>p {
+    font-size: 30px;
+    text-align: center;
+    margin: 43px 0;
+}
+.fare-info {
+    margin-top: 30px;
+}
+.fare-info b {
+    font-size: 22px;
+    font-family: "LATO";
+    background: gray;
+}
+.fare-info p {
+    margin-top: 10px;
+    font-size: 20px;
+    background: rgba(128, 128, 128, 0.42);
+}
+.col-lg-3.book-now-button {
+    margin-top: 15px;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    background: #dcc265;
+    padding-bottom: 10px;
+}
+.btn.btn-primary {
+    padding: 6px 16px;
+    font-size: 18px;
+    border-radius: 2px;
+}
+
+.col-lg-3.fare-breakdown {
+    width: 100%;
+    background: #dcc265;
+    margin-top: 15px;
+    padding-top: 10px;
+    list-style: none;
+    display: block;
+}
+/*.fare-breakdown li p {
+    margin: 0 0 10px;
+    display: inline-block;
+}*/
+.fare-breakdown li p:nth-child(1) {
+    margin-left: -65px;
+}
+.fare-breakdown li p {
+    /* margin: 0 0 10px; */
+    display: inline-block;
+    text-align: center;
+    /* width: 100%; */
+    float: right;
+    margin-left: 4px;
+}
+.container.booking-box {
+    border: 1px solid #959a99;
+    background: white;
+    box-shadow: 3px 7px 7px grey;
+    margin-top: 24px;
+    padding: 30px 10px;
+}
+
+.container.booking-box form .col-sm-6, .col-sm-3 {
+    /*padding-right: 1px;
+    padding-left: 6px;
+    padding-top: 8px;*/
+}
+.col-sm-12.text-center button.btn.btn-primary {
+    padding: 1% 4%;
+    font-size: 20px;
+}
+.estimated-taxi-fare p {
+    display: inline-block;
+    float: right;
+}
+.estimated-taxi-fare {
+    border-top: 2px solid #000;
+    padding-top: 2px;
+    margin-top: 2px;
+}
+.container.booking-box section.col-sm-12 {
+    text-align: center;
+}
+.col-md-12.signup-form {
+    padding-top: 60px;
+}
+.home-login .dropdown,.col-sm-12.home-login a {
+    float: right;
+}
+
+.col-sm-12.home-login .btn-primary {
+    color: #fff;
+    background-color: rgba(51, 122, 183, 0.35);
+    border-color: #ede13d;
+} 
+
+.col-sm-12.home-login .dropdown-menu{
+    min-width: 120px;
+}
